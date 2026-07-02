@@ -68,7 +68,7 @@
 
 此安装当前包含：
 
-- 清单来源：`/Users/zmice/data/workspace/ai-coding/packages/toolkit/src/content`
+- 清单来源：`/home/runner/work/zc-ai-coding-toolkit/zc-ai-coding-toolkit/packages/toolkit/src/content`
 - 匹配到的资产：77
 - command-alias skills：30 个
 - skills：38 个
