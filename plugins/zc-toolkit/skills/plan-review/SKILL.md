@@ -1,0 +1,57 @@
+---
+name: "plan-review"
+description: "从产品、工程、设计、DevEx 多个角度评审 Spec/Plan，发现单一视角容易遗漏的问题。"
+---
+
+# zc:plan-review
+
+这是 Codex 的 command-alias skill。
+
+使用方式：
+
+- 在 Codex 中直接调用 `$plan-review`
+- 它对应统一命令语义 `zc:plan-review`
+- 如果需要更深的方法细节，再继续调用相关专题 skill
+
+这是 `command:start` 之后的 **计划/规格评审阶段入口**。
+
+当 `command:start`、`command:spec` 或 `command:task-plan` 产出了关键方案，但在进入实现前还需要多视角把关时，就从这里接力到 `multi-perspective-review`。
+
+## 当前阶段要做什么
+
+1. 读取当前 Spec 或 Plan，提取关键决策点
+2. **产品视角**：用户价值清晰？边界覆盖？验收可测？
+3. **工程视角**：架构、数据流、边界条件、失败模式、测试策略和性能预算可控？
+4. **设计视角**：体验流畅？异常状态完整？一致性足够？
+5. **DevEx 视角**：接口直觉？文档充分？配置合理？
+6. 汇总发现，按 `Critical / Warning / Suggestion` 分级
+7. 对会改变路线的发现触发 stop gate：先明确决策、假设或问题，不直接进入实现
+8. 存在 `Critical` 时阻断，先修复再继续
+9. 把评审结论写成 plan 可吸收的修订项、验收标准、验证门禁和 Implementation Tasks
+
+## 当前阶段的边界
+
+- 这里只做评审，不直接进入实现
+- 重点是提前暴露盲点，而不是重写整份规格
+- 评审结论必须指向明确修正动作
+- 高风险发现必须进入 stop gate，不能只作为普通建议写进计划
+- 问题要少而关键；只有会改变方案的疑问才向用户提出
+
+## 从这里通常接到哪里
+
+- 评审通过：进入 `command:task-plan` 或 `command:build`
+- 评审发现规格空洞：回到 `command:spec`
+- 评审发现计划颗粒度不对：回到 `command:task-plan`
+
+## 使用方式
+
+提供当前的 Spec、Plan 或关键方案，我会按多视角输出结构化评审结果，并给出下一步接力建议。
+
+## 输出补充
+
+评审报告必须包含：
+
+- `Verdict`: `GO / REVISE / NO-GO`
+- `Stop Gates`: 需要用户决策或显式假设的路线级问题
+- `Implementation Tasks`: 从发现转成的 P1/P2/P3 任务
+- `Verification Gates`: 进入实现或合并前必须运行的验证

@@ -1,0 +1,35 @@
+{
+  "name": "zc-toolkit",
+  "version": "0.5.0",
+  "description": "Bundle zc AI coding workflows for Codex.",
+  "author": {
+    "name": "zc"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "workflow",
+    "multi-agent"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "zc AI Coding Toolkit",
+    "shortDescription": "Reusable engineering workflows for Codex.",
+    "longDescription": "Installs zc workflow skills for planning, building, reviewing, verifying, and coordinating agentic coding work in Codex.",
+    "developerName": "zc",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use start to choose the right workflow for this task.",
+      "Use team-orchestration when multiple agents need coordinated worktree isolation."
+    ]
+  },
+  "zc": {
+    "commands": 30,
+    "skills": 38
+  }
+}

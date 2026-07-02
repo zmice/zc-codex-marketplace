@@ -1,0 +1,20 @@
+{
+  "name": "zc-toolkit",
+  "interface": {
+    "displayName": "zc AI Coding Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "zc-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zc-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
