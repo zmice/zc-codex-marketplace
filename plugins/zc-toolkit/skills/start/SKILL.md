@@ -3,14 +3,14 @@ name: "start"
 description: "统一任务开始入口。用于先评估任务类型、清晰度、阶段与风险，再在 6 条固定 workflow 中选择默认入口；适用于不确定该先分析、实现、调试、审查、补文档还是调查摸底的请求。"
 ---
 
-# zc:start
+# start
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$start`
-- 它对应统一命令语义 `zc:start`
+- 兼容语义名：`zc:start`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用统一任务开始流程。先评估任务，再在固定 workflow 中选路，不直接假定你已经知道该用哪条命令。

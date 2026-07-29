@@ -3,14 +3,14 @@ name: "ship"
 description: "发布上线前的系统化检查清单，确保代码已准备好部署到生产环境。"
 ---
 
-# zc:ship
+# ship
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$ship`
-- 它对应统一命令语义 `zc:ship`
+- 兼容语义名：`zc:ship`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务核心是发布准备、上线决策和回滚预案时，转到 `ship`。

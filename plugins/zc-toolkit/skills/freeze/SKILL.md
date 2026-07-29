@@ -3,14 +3,14 @@ name: "freeze"
 description: "锁定指定目录或文件，禁止 AI 编辑，保护关键文件不被意外修改。"
 ---
 
-# zc:freeze
+# freeze
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$freeze`
-- 它对应统一命令语义 `zc:freeze`
+- 兼容语义名：`zc:freeze`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 当 `command:start` 识别到任务会触碰关键路径，但主流程仍需继续时，进入 `freeze`。

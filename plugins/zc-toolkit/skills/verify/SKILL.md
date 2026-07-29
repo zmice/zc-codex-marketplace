@@ -3,14 +3,14 @@ name: "verify"
 description: "在声明工作完成之前运行验证命令确认实际状态，遵循“证据先于断言”铁律。"
 ---
 
-# zc:verify
+# verify
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$verify`
-- 它对应统一命令语义 `zc:verify`
+- 兼容语义名：`zc:verify`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **完成前验证阶段入口**。

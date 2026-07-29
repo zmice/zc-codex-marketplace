@@ -3,14 +3,14 @@ name: "task-plan"
 description: "将需求或 Spec 拆解为可执行的原子任务列表，并标注依赖、上下文和验证步骤。"
 ---
 
-# zc:task-plan
+# task-plan
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$task-plan`
-- 它对应统一命令语义 `zc:task-plan`
+- 兼容语义名：`zc:task-plan`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **任务拆解阶段入口**。

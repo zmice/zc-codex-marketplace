@@ -3,14 +3,14 @@ name: "spec"
 description: "先澄清需求与假设，再为给定的功能或场景编写结构化技术规格说明。"
 ---
 
-# zc:spec
+# spec
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$spec`
-- 它对应统一命令语义 `zc:spec`
+- 兼容语义名：`zc:spec`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **规格定义阶段入口**。

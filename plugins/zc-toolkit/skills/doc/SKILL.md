@@ -3,14 +3,14 @@ name: "doc"
 description: "生成项目文档或架构决策记录（ADR），确保知识可传递。"
 ---
 
-# zc:doc
+# doc
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$doc`
-- 它对应统一命令语义 `zc:doc`
+- 兼容语义名：`zc:doc`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务核心是补文档、记录决策、整理知识或更新说明时，转到 `doc`。

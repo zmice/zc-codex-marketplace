@@ -3,14 +3,14 @@ name: "ci"
 description: "搭建或优化 CI/CD 管道，配置质量门禁、自动化测试和部署策略。"
 ---
 
-# zc:ci
+# ci
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$ci`
-- 它对应统一命令语义 `zc:ci`
+- 兼容语义名：`zc:ci`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 ci-cd-and-automation 技能。搭建或优化项目的 CI/CD 自动化管道。

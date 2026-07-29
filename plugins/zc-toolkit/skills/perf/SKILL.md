@@ -3,14 +3,14 @@ name: "perf"
 description: "分析代码性能瓶颈并提供优化方案，从测量开始，用数据驱动优化决策。"
 ---
 
-# zc:perf
+# perf
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$perf`
-- 它对应统一命令语义 `zc:perf`
+- 兼容语义名：`zc:perf`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 performance-optimization 技能。先测量，再优化，用数据说话。

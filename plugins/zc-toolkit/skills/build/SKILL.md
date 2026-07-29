@@ -3,14 +3,14 @@ name: "build"
 description: "按 TDD 的 Red-Green-Refactor 循环进行增量构建，确保每次只完成一个任务且系统始终可编译、可测试。"
 ---
 
-# zc:build
+# build
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$build`
-- 它对应统一命令语义 `zc:build`
+- 兼容语义名：`zc:build`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **实现阶段入口**。

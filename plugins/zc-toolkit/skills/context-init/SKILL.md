@@ -3,14 +3,14 @@ name: "context-init"
 description: "初始化 Codex 项目上下文索引。用于在项目根生成薄入口和渐进式披露的 .codex/context 资料，让 AI 能快速理解项目并主动维护上下文。"
 ---
 
-# zc:context-init
+# context-init
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$context-init`
-- 它对应统一命令语义 `zc:context-init`
+- 兼容语义名：`zc:context-init`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 初始化 Codex 项目上下文索引，让项目根入口保持薄、稳定、可维护，并把详细项目事实放进按需读取的 `.codex/context/`。

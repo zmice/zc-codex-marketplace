@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "zc-toolkit@zc-toolkit",
+  "pluginVersion": "0.7.0",
+  "contentFingerprint": "b68be1d8cf25da2c632733184ac1dd86f4c56c879a7aa7de02aaea7c72b3eccd",
+  "config": {
+    "path": "config/agents.toml",
+    "sha256": "b0364a60a753310deeb33f8941df047c7ba535ceff152b87b05337a6bf26ddd2"
+  },
+  "agents": [
+    {
+      "name": "zc_architect",
+      "path": "agents/zc-architect.toml",
+      "sha256": "227e5e89e2896c7297724100bafab9008cd076d0226f71864e85587ca5b84086"
+    },
+    {
+      "name": "zc_backend_specialist",
+      "path": "agents/zc-backend-specialist.toml",
+      "sha256": "52fc40de6e58be3b020c7a5ee26e56e0a17b1ca01d1d988d137cf576ee407f0c"
+    },
+    {
+      "name": "zc_code_reviewer",
+      "path": "agents/zc-code-reviewer.toml",
+      "sha256": "41d5ea3133e691d2c2a31250d610b9b74192a36e0281243363258935af76c185"
+    },
+    {
+      "name": "zc_context_steward",
+      "path": "agents/zc-context-steward.toml",
+      "sha256": "a7a16543ea5cb66ebd4842783d60a17614e2f53c981867365a1b2a22d5954f34"
+    },
+    {
+      "name": "zc_frontend_specialist",
+      "path": "agents/zc-frontend-specialist.toml",
+      "sha256": "186bbdfaf022e980318334122741cf758c6ea85c180a527dd0cd67bb442c7c0f"
+    },
+    {
+      "name": "zc_performance_engineer",
+      "path": "agents/zc-performance-engineer.toml",
+      "sha256": "dea12650e5a9f6141f64985c2aa87cee70bc52bca55f597613c711ab8fbb5e41"
+    },
+    {
+      "name": "zc_product_owner",
+      "path": "agents/zc-product-owner.toml",
+      "sha256": "a68d14d8a7160630b480aa167a9488dfacf23d7ce0cbab62ecbc4202f7ac845f"
+    },
+    {
+      "name": "zc_security_auditor",
+      "path": "agents/zc-security-auditor.toml",
+      "sha256": "92b8dbd82fe6be79e63b120e2562af16f598ddaf2d856dc92872003e9fcb53f2"
+    },
+    {
+      "name": "zc_test_engineer",
+      "path": "agents/zc-test-engineer.toml",
+      "sha256": "16a7a46b9477601500a4d7b41cfcae60a1354c37024e084c28eee7b6a459654e"
+    }
+  ]
+}

@@ -3,14 +3,14 @@ name: "product-analysis"
 description: "将模糊需求收敛为可落地的执行方案，先明确价值、范围、验收标准，再决定是否进入完整交付。"
 ---
 
-# zc:product-analysis
+# product-analysis
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$product-analysis`
-- 它对应统一命令语义 `zc:product-analysis`
+- 兼容语义名：`zc:product-analysis`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 完成任务评估后的 **产品分析工作流入口**。

@@ -3,14 +3,14 @@ name: "guard"
 description: "同时激活 Careful + Freeze 的组合防护，适用于操作生产环境，提供最高级别的安全保护。"
 ---
 
-# zc:guard
+# guard
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$guard`
-- 它对应统一命令语义 `zc:guard`
+- 兼容语义名：`zc:guard`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 当 `command:start` 识别到任务同时存在危险操作和关键路径风险时，进入 `guard`。

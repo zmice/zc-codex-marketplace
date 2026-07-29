@@ -1,10 +1,13 @@
 {
   "name": "zc-toolkit",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "description": "Bundle zc AI coding workflows for Codex.",
   "author": {
-    "name": "zc"
+    "name": "zc",
+    "url": "https://github.com/zmice"
   },
+  "homepage": "https://github.com/zmice/zc-ai-coding-toolkit",
+  "repository": "https://github.com/zmice/zc-ai-coding-toolkit",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -16,7 +19,7 @@
   "interface": {
     "displayName": "zc AI Coding Toolkit",
     "shortDescription": "Reusable engineering workflows for Codex.",
-    "longDescription": "Installs zc workflow skills for planning, building, reviewing, verifying, and coordinating agentic coding work in Codex.",
+    "longDescription": "Installs zc commands, skills, and agents for planning, building, reviewing, verifying, and coordinating agentic coding work in Codex.",
     "developerName": "zc",
     "category": "Developer Tools",
     "capabilities": [
@@ -30,6 +33,7 @@
   },
   "zc": {
     "commands": 30,
-    "skills": 38
+    "skills": 40,
+    "agents": 9
   }
 }

@@ -3,14 +3,14 @@ name: "ctx-health"
 description: "管理和刷新对话上下文，防止长会话质量下降，执行上下文健康检查并输出压缩摘要。"
 ---
 
-# zc:ctx-health
+# ctx-health
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$ctx-health`
-- 它对应统一命令语义 `zc:ctx-health`
+- 兼容语义名：`zc:ctx-health`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务核心不是继续实现，而是先修复会话上下文质量时，转到 `ctx-health`。

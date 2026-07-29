@@ -3,14 +3,14 @@ name: "migrate"
 description: "规划和执行代码迁移或 API 废弃，确保平滑过渡，不破坏现有功能。"
 ---
 
-# zc:migrate
+# migrate
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$migrate`
-- 它对应统一命令语义 `zc:migrate`
+- 兼容语义名：`zc:migrate`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 deprecation-and-migration 技能。渐进迁移，安全移除旧代码。

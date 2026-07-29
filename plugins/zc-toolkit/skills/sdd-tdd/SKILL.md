@@ -3,14 +3,14 @@ name: "sdd-tdd"
 description: "启动完整的 SDD+TDD 开发流程，从需求分析到规格编写、任务拆解、TDD 增量构建和代码审查，全流程门控推进。"
 ---
 
-# zc:sdd-tdd
+# sdd-tdd
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$sdd-tdd`
-- 它对应统一命令语义 `zc:sdd-tdd`
+- 兼容语义名：`zc:sdd-tdd`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 完成任务评估后的 **完整开发工作流入口**。

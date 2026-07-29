@@ -3,14 +3,14 @@ name: "plan-review"
 description: "从产品、工程、设计、DevEx 多个角度评审 Spec/Plan，发现单一视角容易遗漏的问题。"
 ---
 
-# zc:plan-review
+# plan-review
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$plan-review`
-- 它对应统一命令语义 `zc:plan-review`
+- 兼容语义名：`zc:plan-review`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **计划/规格评审阶段入口**。

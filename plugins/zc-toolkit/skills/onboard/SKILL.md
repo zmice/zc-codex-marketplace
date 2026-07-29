@@ -3,14 +3,14 @@ name: "onboard"
 description: "系统化地理解陌生代码库，通过目录扫描、入口定位、依赖分析和模式识别快速建立全局认知。"
 ---
 
-# zc:onboard
+# onboard
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$onboard`
-- 它对应统一命令语义 `zc:onboard`
+- 兼容语义名：`zc:onboard`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务核心是理解陌生项目、模块或代码路径，而不是立刻修改实现时，转到 `onboard`。

@@ -3,14 +3,14 @@ name: "api"
 description: "设计和审查 API 接口，确保一致性、易用性和向后兼容性。"
 ---
 
-# zc:api
+# api
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$api`
-- 它对应统一命令语义 `zc:api`
+- 兼容语义名：`zc:api`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 api-and-interface-design 技能。Contract-first 设计，确保接口稳定可靠。

@@ -3,14 +3,14 @@ name: "idea"
 description: "将模糊的想法或需求细化为具体、可执行的技术方案，通过结构化提问帮你理清思路。"
 ---
 
-# zc:idea
+# idea
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$idea`
-- 它对应统一命令语义 `zc:idea`
+- 兼容语义名：`zc:idea`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务还停留在粗糙想法、方向探索或方案收敛阶段时，转到 `idea`。

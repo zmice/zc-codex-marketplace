@@ -3,14 +3,14 @@ name: "qa"
 description: "执行真实浏览器自动化 QA 测试，覆盖用户流程、交互、可访问性。"
 ---
 
-# zc:qa
+# qa
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$qa`
-- 它对应统一命令语义 `zc:qa`
+- 兼容语义名：`zc:qa`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 browser-qa-testing 技能。在真实浏览器中验证用户体验。

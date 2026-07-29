@@ -3,14 +3,14 @@ name: "careful"
 description: "激活 Careful 模式，AI 在执行任何危险命令前显示风险警告并要求确认。"
 ---
 
-# zc:careful
+# careful
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$careful`
-- 它对应统一命令语义 `zc:careful`
+- 兼容语义名：`zc:careful`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 当 `command:start` 识别到任务包含高风险操作，但还不需要冻结路径时，进入 `careful`。

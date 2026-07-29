@@ -3,14 +3,14 @@ name: "retro"
 description: "触发 Sprint 回顾，统计产出数据、总结决策效果、识别瓶颈、输出改进清单。"
 ---
 
-# zc:retro
+# retro
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$retro`
-- 它对应统一命令语义 `zc:retro`
+- 兼容语义名：`zc:retro`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 sprint-retrospective 技能。回顾本轮开发，提取改进项。

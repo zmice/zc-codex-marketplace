@@ -3,14 +3,14 @@ name: "commit"
 description: "引导规范化 Git 提交，确保原子提交、描述性消息和提交前检查。"
 ---
 
-# zc:commit
+# commit
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$commit`
-- 它对应统一命令语义 `zc:commit`
+- 兼容语义名：`zc:commit`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 git-workflow-and-versioning 技能。引导完成一次规范化的 Git 提交。

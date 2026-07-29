@@ -3,14 +3,14 @@ name: "quality-review"
 description: "对代码变更进行五维度系统化审查（正确性/可读性/架构/安全/性能），输出结构化中文审查报告。"
 ---
 
-# zc:quality-review
+# quality-review
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$quality-review`
-- 它对应统一命令语义 `zc:quality-review`
+- 兼容语义名：`zc:quality-review`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 之后的 **实现后审查阶段入口**。

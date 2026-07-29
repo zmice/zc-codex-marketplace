@@ -3,14 +3,14 @@ name: "debug"
 description: "使用系统化方法诊断和修复 Bug，遵循 Prove-It 模式：先复现，再定位，最后修复。"
 ---
 
-# zc:debug
+# debug
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$debug`
-- 它对应统一命令语义 `zc:debug`
+- 兼容语义名：`zc:debug`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 这是 `command:start` 评估后进入的专项入口：当任务核心是定位问题、复现异常、确认根因时，转到 `debug`。

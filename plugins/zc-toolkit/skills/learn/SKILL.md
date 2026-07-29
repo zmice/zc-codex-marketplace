@@ -3,14 +3,14 @@ name: "learn"
 description: "手动触发当前会话的模式提取与学习，分析观察数据，提取可复用的 instincts 并持久化。"
 ---
 
-# zc:learn
+# learn
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$learn`
-- 它对应统一命令语义 `zc:learn`
+- 兼容语义名：`zc:learn`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 continuous-learning 技能。分析会话中的模式，提取可复用的 instincts（本能）。

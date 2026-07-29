@@ -3,14 +3,14 @@ name: "simplify"
 description: "分析代码并进行简化重构，降低复杂度，提升可读性和可维护性。"
 ---
 
-# zc:simplify
+# simplify
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$simplify`
-- 它对应统一命令语义 `zc:simplify`
+- 兼容语义名：`zc:simplify`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 code-simplification 技能。简化代码，保持行为不变。

@@ -3,14 +3,14 @@ name: "secure"
 description: "对代码进行安全审计和加固，识别漏洞并提供修复方案。"
 ---
 
-# zc:secure
+# secure
 
 这是 Codex 的 command-alias skill。
 
 使用方式：
 
 - 在 Codex 中直接调用 `$secure`
-- 它对应统一命令语义 `zc:secure`
+- 兼容语义名：`zc:secure`（仅用于旧文档或跨平台说明，不是 Codex 原生命令）
 - 如果需要更深的方法细节，再继续调用相关专题 skill
 
 调用 security-and-hardening 技能。按 OWASP Top 10 和安全最佳实践审计代码。
