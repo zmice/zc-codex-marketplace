@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "zc-toolkit@zc-toolkit",
-  "pluginVersion": "0.8.1",
+  "pluginVersion": "0.8.2",
   "contentFingerprint": "0a5794af71ed452102e293d21a541c1708a63f583c205cca6b38673753ef77e0",
   "config": {
     "path": "config/agents.toml",
