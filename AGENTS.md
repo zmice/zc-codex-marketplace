@@ -91,7 +91,7 @@
 此安装当前包含：
 
 - 清单来源：`/home/runner/work/zc-ai-coding-toolkit/zc-ai-coding-toolkit/packages/toolkit/src/content`
-- 匹配到的资产：79
+- 匹配到的资产：80
 - command-alias skills：30 个
-- skills：40 个
+- skills：41 个
 - plugin agents：9 个
