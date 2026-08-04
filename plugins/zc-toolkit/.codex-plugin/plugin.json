@@ -1,7 +1,7 @@
 {
   "name": "zc-toolkit",
-  "version": "0.7.0",
-  "description": "Bundle zc AI coding workflows for Codex.",
+  "version": "0.8.0",
+  "description": "Codex 工程工作流：规划、实现、审查、验证、多代理协作与 UI/UX。",
   "author": {
     "name": "zc",
     "url": "https://github.com/zmice"
@@ -13,13 +13,16 @@
     "codex",
     "skills",
     "workflow",
-    "multi-agent"
+    "multi-agent",
+    "ui",
+    "ux",
+    "accessibility"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "zc AI Coding Toolkit",
-    "shortDescription": "Reusable engineering workflows for Codex.",
-    "longDescription": "Installs zc commands, skills, and agents for planning, building, reviewing, verifying, and coordinating agentic coding work in Codex.",
+    "shortDescription": "Codex 工程与 UI/UX 工作流",
+    "longDescription": "为 Codex 安装规划、实现、审查、验证、多代理协作和 UI/UX 工程能力。",
     "developerName": "zc",
     "category": "Developer Tools",
     "capabilities": [
@@ -27,13 +30,9 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Use start to choose the right workflow for this task.",
-      "Use team-orchestration when multiple agents need coordinated worktree isolation."
+      "使用 start 为当前任务选择合适的工作流。",
+      "界面实现使用 ui；只读 UI/UX 审查使用 ui-ux-review。",
+      "仅在任务可独立拆分时使用 team-orchestration 组织多代理协作。"
     ]
-  },
-  "zc": {
-    "commands": 30,
-    "skills": 40,
-    "agents": 9
   }
 }
