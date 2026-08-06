@@ -1,0 +1,2 @@
+# Keep companion integrity hashes stable across Windows, macOS, and Linux checkouts.
+plugins/zc-toolkit/assets/zc-agents/** text eol=lf
