@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "pluginId": "zc-toolkit@zc-toolkit",
-  "pluginVersion": "0.8.6",
-  "contentFingerprint": "0a5794af71ed452102e293d21a541c1708a63f583c205cca6b38673753ef77e0",
+  "pluginVersion": "0.9.0",
+  "contentFingerprint": "a1a4f1786762f478436ae08c5cc1f180b0248c4931a04d94e3f065a6197fdce9",
   "config": {
     "path": "config/agents.toml",
     "sha256": "1a8d3b035ea817d808ee0e60e5f4b3efc4f4fba67edca6d6ab54e9e8a0a2dad3"
@@ -11,47 +11,47 @@
     {
       "name": "zc_architect",
       "path": "agents/zc-architect.toml",
-      "sha256": "227e5e89e2896c7297724100bafab9008cd076d0226f71864e85587ca5b84086"
+      "sha256": "2685821fdb6220f55920b37b384c19c5460b93b0c1578695ea6a56d20bf0ffe1"
     },
     {
       "name": "zc_backend_specialist",
       "path": "agents/zc-backend-specialist.toml",
-      "sha256": "52fc40de6e58be3b020c7a5ee26e56e0a17b1ca01d1d988d137cf576ee407f0c"
+      "sha256": "b8486f34da11cf2e082b4120c8aca02a247b444eb4ec40b7e74a6091d57bdede"
     },
     {
       "name": "zc_code_reviewer",
       "path": "agents/zc-code-reviewer.toml",
-      "sha256": "41d5ea3133e691d2c2a31250d610b9b74192a36e0281243363258935af76c185"
+      "sha256": "eeba8fa3075d6207aeafd5e4645eadb55a146c9acb58881e89c1e50cb67934ab"
     },
     {
       "name": "zc_context_steward",
       "path": "agents/zc-context-steward.toml",
-      "sha256": "a7a16543ea5cb66ebd4842783d60a17614e2f53c981867365a1b2a22d5954f34"
+      "sha256": "d512584cee62838bb151f8d544a91f59c83c187f8b873f3ce1b3ae78a0b6cca0"
     },
     {
       "name": "zc_frontend_specialist",
       "path": "agents/zc-frontend-specialist.toml",
-      "sha256": "5018bf0f787c1652f7be812ab5c6cea1a1002598beb38f8dd4d66612c2e47043"
+      "sha256": "5b0e8285c8dc92c347fa44386abe75f881c0ba59f0f5595fbb2275d86fe0a441"
     },
     {
       "name": "zc_performance_engineer",
       "path": "agents/zc-performance-engineer.toml",
-      "sha256": "dea12650e5a9f6141f64985c2aa87cee70bc52bca55f597613c711ab8fbb5e41"
+      "sha256": "8b1e6f972ecfe8c8b4d3c20f0ceb4e5706860aa146725da99fbb307a192cc282"
     },
     {
       "name": "zc_product_owner",
       "path": "agents/zc-product-owner.toml",
-      "sha256": "a68d14d8a7160630b480aa167a9488dfacf23d7ce0cbab62ecbc4202f7ac845f"
+      "sha256": "ad9ed6d5bda6ad96b2fe8102b77fd17181fa683ea93d0ab6d196a4117b166963"
     },
     {
       "name": "zc_security_auditor",
       "path": "agents/zc-security-auditor.toml",
-      "sha256": "92b8dbd82fe6be79e63b120e2562af16f598ddaf2d856dc92872003e9fcb53f2"
+      "sha256": "b5aef49d0af3d91ad95f959a25bb9e3389c4c2bf3508cd23dbeff86cfffa563c"
     },
     {
       "name": "zc_test_engineer",
       "path": "agents/zc-test-engineer.toml",
-      "sha256": "16a7a46b9477601500a4d7b41cfcae60a1354c37024e084c28eee7b6a459654e"
+      "sha256": "10234db98714a781a5d14c453e58923573a68840b8694b8f8fb273d1101aa9be"
     }
   ]
 }

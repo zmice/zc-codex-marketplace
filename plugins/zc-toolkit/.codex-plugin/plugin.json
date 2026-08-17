@@ -1,6 +1,6 @@
 {
   "name": "zc-toolkit",
-  "version": "0.8.6",
+  "version": "0.9.0",
   "description": "Codex 工程工作流：规划、实现、审查、验证、多代理协作与 UI/UX。",
   "author": {
     "name": "zc",
