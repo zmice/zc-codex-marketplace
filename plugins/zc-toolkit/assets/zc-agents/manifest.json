@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "pluginId": "zc-toolkit@zc-toolkit",
-  "pluginVersion": "0.9.1",
-  "contentFingerprint": "a1a4f1786762f478436ae08c5cc1f180b0248c4931a04d94e3f065a6197fdce9",
+  "pluginVersion": "0.10.0",
+  "contentFingerprint": "11f7b02ac1ee581cd1f0bfcf6039b2bb05eea8c830af18c7e56c9012af74c556",
   "config": {
     "path": "config/agents.toml",
     "sha256": "1a8d3b035ea817d808ee0e60e5f4b3efc4f4fba67edca6d6ab54e9e8a0a2dad3"
@@ -31,7 +31,7 @@
     {
       "name": "zc_frontend_specialist",
       "path": "agents/zc-frontend-specialist.toml",
-      "sha256": "5b0e8285c8dc92c347fa44386abe75f881c0ba59f0f5595fbb2275d86fe0a441"
+      "sha256": "98c4dfdab1d65a66efe3c11674f6dfe5dd01da9819f587b059a9e281efd17dcc"
     },
     {
       "name": "zc_performance_engineer",
