@@ -13,7 +13,8 @@ description: "在会话开始或不确定该用哪个 skill 时使用。负责�
 
 | 当前任务 | 首选 skill |
 |---|---|
-| 想法模糊，需要收敛 | `idea-refine` |
+| 入口不确定或需要完整任务分诊 | `command:start` |
+| 已明确属于产品假设或方向发散 | `idea-refine` |
 | 新功能或重大变更，需要规格 | `spec-driven-development` |
 | 已有规格，需要拆任务 | `planning-and-task-breakdown` |
 | 编写或修改代码 | `incremental-implementation` |
@@ -51,7 +52,8 @@ description: "在会话开始或不确定该用哪个 skill 时使用。负责�
 
 ```text
 Feature:
-idea-refine
+command:start
+→ idea-refine（仅在需要方向发散时）
 → spec-driven-development
 → planning-and-task-breakdown
 → incremental-implementation
