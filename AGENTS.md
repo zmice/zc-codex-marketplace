@@ -32,45 +32,15 @@
 - `$zc-toolkit:onboard`: 系统化地理解陌生代码库，通过目录扫描、入口定位、依赖分析和模式识别快速建立全局认知。
 - `$zc-toolkit:ctx-health`: 管理和刷新对话上下文，防止长会话质量下降，执行上下文健康检查并输出压缩摘要。
 
-### 阶段 / 收尾入口
-
-- `$zc-toolkit:task-plan`: 将需求或 Spec 拆解为可执行的原子任务列表，并标注依赖、上下文和验证步骤。
-- `$zc-toolkit:spec`: 先澄清需求与假设，再为给定的功能或场景编写结构化技术规格说明。
-- `$zc-toolkit:build`: 按 TDD 的 Red-Green-Refactor 循环进行增量构建，确保每次只完成一个任务且系统始终可编译、可测试。
-- `$zc-toolkit:verify`: 在声明工作完成之前运行验证命令确认实际状态，遵循“证据先于断言”铁律。
-- `$zc-toolkit:plan-review`: 从产品、工程、设计、DevEx 多个角度评审 Spec/Plan，发现单一视角容易遗漏的问题。
-- `$zc-toolkit:idea`: 将模糊的想法或需求细化为具体、可执行的技术方案，通过结构化提问帮你理清思路。
-- `$zc-toolkit:ship`: 发布上线前的系统化检查清单，确保代码已准备好部署到生产环境。
-
 ### 专项入口（按需召回）
 
-- `$zc-toolkit:api`: 设计和审查 API 接口，确保一致性、易用性和向后兼容性。
-- `$zc-toolkit:migrate`: 规划和执行代码迁移或 API 废弃，确保平滑过渡，不破坏现有功能。
-- `$zc-toolkit:perf`: 分析代码性能瓶颈并提供优化方案，从测量开始，用数据驱动优化决策。
-- `$zc-toolkit:qa`: 执行真实浏览器自动化 QA 测试，覆盖用户流程、交互、可访问性。
-- `$zc-toolkit:secure`: 对代码进行安全审计和加固，识别漏洞并提供修复方案。
-- `$zc-toolkit:simplify`: 分析代码并进行简化重构，降低复杂度，提升可读性和可维护性。
-- `$zc-toolkit:ui`: 前端 UI 开发辅助，涵盖组件设计、样式实现、响应式布局和可访问性。
-
-### 上下文、发布和治理入口
-
-- `$zc-toolkit:context-init`: 初始化 Codex 项目上下文索引。用于在项目根生成薄入口和渐进式披露的 .codex/context 资料，让 AI 能快速理解项目并主动维护上下文。
-- `$zc-toolkit:learn`: 手动触发当前会话的模式提取与学习，分析观察数据，提取可复用的 instincts 并持久化。
-- `$zc-toolkit:retro`: 触发 Sprint 回顾，统计产出数据、总结决策效果、识别瓶颈、输出改进清单。
-- `$zc-toolkit:commit`: 引导规范化 Git 提交，确保原子提交、描述性消息和提交前检查。
-- `$zc-toolkit:ci`: 搭建或优化 CI/CD 管道，配置质量门禁、自动化测试和部署策略。
-
-### 防护入口
-
-- `$zc-toolkit:guard`: 同时激活 Careful + Freeze 的组合防护，适用于操作生产环境，提供最高级别的安全保护。
-- `$zc-toolkit:careful`: 激活 Careful 模式，AI 在执行任何危险命令前显示风险警告并要求确认。
-- `$zc-toolkit:freeze`: 锁定指定目录或文件，禁止 AI 编辑，保护关键文件不被意外修改。
+阶段、专项、治理与防护能力按任务需要读取下方 skills 目录中的对应 SKILL.md；入口摘要不重复展开全部描述。已授权范围内持续执行，遇到授权缺失或关键决策时再暂停。
 
 
 ## Codex 调用方式
 
 - Codex 中通过插件 namespace 调用 skill，例如 `$zc-toolkit:start`、`$zc-toolkit:context-init`、`$zc-toolkit:quality-review`
-- 插件同时提供原生 command 文件；实际 slash command 名称以 Codex 展示的插件 namespace 为准
+- 每个 command 以同名 skill 提供；不再分发旧 slash command 与 source-command-* 迁移入口
 - 如果旧文档或跨平台说明里出现 `zc:*`，它是稳定兼容语义名
 - 常见兼容示例：
 - `zc:api` -> `$zc-toolkit:api`
@@ -81,7 +51,6 @@
 
 ## 详细内容在哪里
 
-- 插件 commands：`plugins/zc-toolkit/commands/<command>.md`
 - 插件 skills：`plugins/zc-toolkit/skills/<command-or-skill>/SKILL.md`
 - 插件 agents：`plugins/zc-toolkit/agents/<agent>.md`
 - 当前入口文件：`AGENTS.md`

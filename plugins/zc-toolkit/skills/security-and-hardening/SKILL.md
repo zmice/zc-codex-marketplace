@@ -1,6 +1,6 @@
 ---
 name: "security-and-hardening"
-description: "加固代码免受常见漏洞影响。适用于处理用户输入、认证、数据存储或外部集成，也适用于任何接收不可信数据、管理会话或接入第三方服务的功能。"
+description: "审查或加固信任边界、认证授权、敏感数据与不可信输入处理；仅提及数据库或第三方服务不触发。"
 ---
 
 # Security and Hardening
@@ -11,12 +11,14 @@ Security-first development practices for web applications. Treat every external 
 
 ## When to Use
 
-- Building anything that accepts user input
+- Changing how untrusted input is validated, interpreted, or used
 - Implementing authentication or authorization
 - Storing or transmitting sensitive data
-- Integrating with external APIs or services
+- Changing trust boundaries when integrating external APIs or services
 - Adding file uploads, webhooks, or callbacks
 - Handling payment or PII data
+
+仅提及数据库或第三方服务、修改说明文案或做不影响信任边界的机械调整，不自动触发本流程。显式安全审查请求仍适用；只读取与实际风险相关的控制项。
 
 ## Security Boundary System
 
