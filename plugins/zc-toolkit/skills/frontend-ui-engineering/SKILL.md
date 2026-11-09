@@ -17,6 +17,8 @@ description: "构建生产级前端界面。适用于开发或修改用户可见
 
 若任务只要求审计、点评或提出改进，先使用 `skill:ui-ux-review`，不要在审查阶段改源码。
 
+用户明确要求整体视觉重塑、去模板化或 Unslop 时，配合 `skill:visual-refinement` 确定方向、改造轮次与可比证据；本技能继续负责组件、状态与功能实现。普通界面开发和单点修复不强制执行九轮改造。
+
 ## 1. Reconstruct the Local Contract
 
 从目标路由或页面入口沿真实渲染路径读取：
